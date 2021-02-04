@@ -24,10 +24,19 @@
     channel: freeshadowsock
     num: 200
 
+- type: tgchannel
+  options:
+    channel: ripaojiedian
+    num: 200
+
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum-48-1.html
+
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-36-1.html
 
 # clash格式订阅链接
 - type: clash
