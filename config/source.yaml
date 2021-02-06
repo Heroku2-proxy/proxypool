@@ -103,6 +103,11 @@
   options:
     channel: ssrList
     num: 200
+    
+- type: tgchannel
+  options:
+    channel: V2List
+    num: 200
 
 - type: tgchannel
   options:
