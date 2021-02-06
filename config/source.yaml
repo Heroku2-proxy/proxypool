@@ -92,6 +92,10 @@
 - type: webfuzz
   options:
     url: https://github.com/freefq/free
+    
+- type: webfuzz
+  options:
+    url: https://www.facebook.com/groups/331230227846392
 
 # =============================tg频道抓取=============================
 - type: tgchannel
