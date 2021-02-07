@@ -1,3 +1,78 @@
-- type: webfuzzsub
+# =============================OnepieceProxz抓取配置模板=============================
+# # 订阅链接(模糊抓取)
+# - type: webfuzzsub
+#   options:
+#     url: https://raw.githubusercontent.com/du5/free/master/sub.list
+
+# # 订阅链接
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+
+# # 网页(模糊抓取)
+# - type: webfuzz
+#   options:
+#     url: https://merlinblog.xyz/wiki/freess.html
+
+# # TG频道抓取
+# - type: tgchannel
+#   options:
+#     channel: ssrList
+#     num: 200
+
+# # 翻墙党论坛抓取
+# - type: web-fanqiangdang
+#   options:
+#     url: https://fanqiangdang.com/forum-48-1.html
+
+# # Clash格式订阅链接
+# - type: clash
+#   options:
+#     url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
+
+# # 某个网站抓取(freessrxyz)
+# - type: web-freessrxyz
+#   options:
+
+# **************Current Use****************
+# =============================翻墙党论坛抓取===============================
+- type: web-fanqiangdang
   options:
-    url: https://t.me/s/ssrv2jiedian
+    url: https://fanqiangdang.com/forum-48-1.html
+
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-36-1.html
+
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-2-1.html
+
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-50-1.html
+
+# =============================订阅链接抓取=============================
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
+
+- type: subscribe
+  options:
+    url: https://jiang.netlify.com/
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md
+
+- type: subscribe
+  options:
+    url: https://v2free.org/freev2.txt
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/freefq/free/master/v2
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
