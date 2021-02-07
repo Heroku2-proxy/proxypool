@@ -152,7 +152,7 @@
     channel: ripaojiedian
     num: 200
 
-- type: tgchannel
-  options:
-    channel: v2rayNssr
-    num: 200
+# - type: tgchannel
+#   options:
+#     channel: v2rayNssr
+#     num: 200
