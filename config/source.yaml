@@ -76,3 +76,74 @@
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
+
+# =============================网页抓取(模糊)=============================
+- type: webfuzz
+  options:
+    url: https://github.com/BeanWei/freeSSR
+
+- type: webfuzz
+  options:
+    url: https://github.com/dovesu/-SSR-
+
+- type: webfuzz
+  options:
+    url: https://github.com/wohezhilong/isharing
+
+- type: webfuzz
+  options:
+    url: https://github.com/freefq/free
+    
+- type: webfuzz
+  options:
+    url: https://www.facebook.com/groups/331230227846392
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/ssrv2jiedian
+
+# =============================tg频道抓取=============================
+- type: tgchannel
+  options:
+    channel: baipiaov2
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: ssrList
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: V2List
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: freeshadowsock
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: ssrshares
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: baipiaojiedian
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: ShareCentre
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: ripaojiedian
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: v2rayNssr
+    num: 200
