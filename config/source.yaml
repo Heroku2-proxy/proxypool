@@ -121,7 +121,12 @@
   options:
     channel: V2List
     num: 200
-
+    
+- type: tgchannel
+  options:
+    channel: ShadowsocksRssr
+    num: 200
+    
 - type: tgchannel
   options:
     channel: freeshadowsock
