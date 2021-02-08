@@ -98,6 +98,7 @@
   options:
     url: https://www.facebook.com/groups/331230227846392
 
+# =============================网页订阅链接抓取(模糊)=============================
 - type: webfuzzsub
   options:
     url: https://t.me/s/ssrv2jiedian
