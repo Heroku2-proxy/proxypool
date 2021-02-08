@@ -1,6 +1,7 @@
-name: 'GitHub echo hello'
+name: 'GitHub Actions Weather Bot'
 
 on:
+  push:
   schedule:
     - cron: '*/1 * * * *'
 
@@ -9,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Run code'
-        run: echo Hello, github action!
+        run: echo 123
