@@ -1,12 +1,12 @@
-name: 'GitHub Actions test echo'
- 
+name: 'GitHub echo hello'
+
 on:
   schedule:
     - cron: '*/1 * * * *'
 
 jobs:
-  build:
+  bot:
     runs-on: ubuntu-latest
     steps:
-       - name: Run a one-line script
-         run: echo Hello, github action!
+      - name: 'Run code'
+        run: echo Hello, github action!
