@@ -67,9 +67,9 @@
     url: https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
 
 # =============================网页订阅链接抓取(模糊)=============================
-- type: webfuzzsub
-  options:
-    url: https://t.me/s/ssrv2jiedian
+# - type: webfuzzsub
+#   options:
+#     url: https://t.me/s/ssrv2jiedian
 
 # =============================tg频道抓取(同时包含订阅和节点)=============================
 - type: tgchannel
