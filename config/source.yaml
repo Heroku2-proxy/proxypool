@@ -1,40 +1,4 @@
-# =============================OnepieceProxz抓取配置模板=============================
-# # 订阅链接(模糊抓取)
-# - type: webfuzzsub
-#   options:
-#     url: https://raw.githubusercontent.com/du5/free/master/sub.list
-
-# # 订阅链接
-# - type: subscribe
-#   options:
-#     url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
-
-# # 网页(模糊抓取)
-# - type: webfuzz
-#   options:
-#     url: https://merlinblog.xyz/wiki/freess.html
-
-# # TG频道抓取
-# - type: tgchannel
-#   options:
-#     channel: ssrList
-#     num: 200
-
-# # 翻墙党论坛抓取
-# - type: web-fanqiangdang
-#   options:
-#     url: https://fanqiangdang.com/forum-48-1.html
-
-# # Clash格式订阅链接
-# - type: clash
-#   options:
-#     url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
-
-# # 某个网站抓取(freessrxyz)
-# - type: web-freessrxyz
-#   options:
-
-# **************Current Use****************
+# *****************************Current Use********************************
 # =============================翻墙党论坛抓取===============================
 - type: web-fanqiangdang
   options:
@@ -106,7 +70,7 @@
 - type: webfuzzsub
   options:
     url: https://t.me/s/ssrv2jiedian
-    
+
 - type: webfuzzsub
   options:
     url: https://t.me/s/jingpingziyuanfenxiang
@@ -117,47 +81,105 @@
     channel: baipiaov2
     num: 200
 
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/baipiaov2
+
 - type: tgchannel
   options:
     channel: ssrList
     num: 200
-    
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/ssrList
+
 - type: tgchannel
   options:
     channel: V2List
     num: 200
-    
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/V2List
+
 - type: tgchannel
   options:
     channel: ShadowsocksRssr
     num: 200
-    
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/ShadowsocksRssr
+
 - type: tgchannel
   options:
     channel: freeshadowsock
     num: 200
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/freeshadowsock
 
 - type: tgchannel
   options:
     channel: ssrshares
     num: 200
 
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/ssrshares
+
 - type: tgchannel
   options:
     channel: baipiaojiedian
     num: 200
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/baipiaojiedian
 
 - type: tgchannel
   options:
     channel: ShareCentre
     num: 200
 
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/ShareCentre
+
 - type: tgchannel
   options:
     channel: ripaojiedian
     num: 200
 
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/ripaojiedian
+
 - type: tgchannel
   options:
     channel: v2rayNssr
     num: 200
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/v2rayNssr
+
+- type: tgchannel
+  options:
+    channel: ssrv2jiedian
+    num: 200
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/ssrv2jiedian
+
+- type: tgchannel
+  options:
+    channel: jingpingziyuanfenxiang
+    num: 200
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/jingpingziyuanfenxiang
