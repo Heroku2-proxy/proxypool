@@ -71,11 +71,7 @@
   options:
     url: https://t.me/s/ssrv2jiedian
 
-- type: webfuzzsub
-  options:
-    url: https://t.me/s/jingpingziyuanfenxiang
-
-# =============================tg频道抓取=============================
+# =============================tg频道抓取(同时包含订阅和节点)=============================
 - type: tgchannel
   options:
     channel: baipiaov2
