@@ -153,10 +153,10 @@
 #   options:
 #     url: https://t.me/s/ripaojiedian
 
-# - type: tgchannel
-#   options:
-#     channel: v2rayNssr
-#     num: 200
+- type: tgchannel
+  options:
+    channel: v2rayNssr
+    num: 200
 
 # - type: webfuzzsub
 #   options:
@@ -176,6 +176,6 @@
 #     channel: jingpingziyuanfenxiang
 #     num: 200
 
-- type: webfuzzsub
-  options:
-    url: https://t.me/s/jingpingziyuanfenxiang
+# - type: webfuzzsub
+#   options:
+#     url: https://t.me/s/jingpingziyuanfenxiang
