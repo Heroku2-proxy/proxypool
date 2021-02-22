@@ -1,48 +1,48 @@
-# *****************************Current Use********************************
-# =============================翻墙党论坛抓取===============================
-- type: web-fanqiangdang
-  options:
-    url: https://fanqiangdang.com/forum-48-1.html
+# # *****************************Current Use********************************
+# # =============================翻墙党论坛抓取===============================
+# - type: web-fanqiangdang
+#   options:
+#     url: https://fanqiangdang.com/forum-48-1.html
 
-- type: web-fanqiangdang
-  options:
-    url: https://fanqiangdang.com/forum-36-1.html
+# - type: web-fanqiangdang
+#   options:
+#     url: https://fanqiangdang.com/forum-36-1.html
 
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum-2-1.html
 
-- type: web-fanqiangdang
-  options:
-    url: https://fanqiangdang.com/forum-50-1.html
+# - type: web-fanqiangdang
+#   options:
+#     url: https://fanqiangdang.com/forum-50-1.html
 
-# =============================订阅链接抓取=============================
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
+# # =============================订阅链接抓取=============================
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
 
-- type: subscribe
-  options:
-    url: https://jiang.netlify.com/
+# - type: subscribe
+#   options:
+#     url: https://jiang.netlify.com/
 
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md
 
-- type: subscribe
-  options:
-    url: https://v2free.org/freev2.txt
+# - type: subscribe
+#   options:
+#     url: https://v2free.org/freev2.txt
 
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/freefq/free/master/v2
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/freefq/free/master/v2
 
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
 
-# =============================网页抓取(模糊)=============================
-- type: webfuzz
+# # =============================网页抓取(模糊)=============================
+# - type: webfuzz
   options:
     url: https://github.com/BeanWei/freeSSR
 
