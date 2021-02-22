@@ -41,30 +41,30 @@
   options:
     url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
 
-# # =============================网页抓取(模糊)=============================
-# - type: webfuzz
-#   options:
-#     url: https://github.com/BeanWei/freeSSR
+# =============================网页抓取(模糊)=============================
+- type: webfuzz
+  options:
+    url: https://github.com/BeanWei/freeSSR
 
-# - type: webfuzz
-#   options:
-#     url: https://github.com/dovesu/-SSR-
+- type: webfuzz
+  options:
+    url: https://github.com/dovesu/-SSR-
 
-# - type: webfuzz
-#   options:
-#     url: https://github.com/wohezhilong/isharing
+- type: webfuzz
+  options:
+    url: https://github.com/wohezhilong/isharing
 
-# - type: webfuzz
-#   options:
-#     url: https://github.com/freefq/free
+- type: webfuzz
+  options:
+    url: https://github.com/freefq/free
     
-# - type: webfuzz
-#   options:
-#     url: https://www.facebook.com/groups/331230227846392
+- type: webfuzz
+  options:
+    url: https://www.facebook.com/groups/331230227846392
 
-# - type: webfuzz
-#   options:
-#     url: https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
 
 # # =============================网页订阅链接抓取(模糊)=============================
 # # - type: webfuzzsub
