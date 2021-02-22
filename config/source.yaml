@@ -176,6 +176,6 @@
     channel: jingpingziyuanfenxiang
     num: 200
 
-# - type: webfuzzsub
-#   options:
-#     url: https://t.me/s/jingpingziyuanfenxiang
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/jingpingziyuanfenxiang
