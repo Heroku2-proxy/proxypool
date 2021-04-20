@@ -81,14 +81,14 @@
   options:
     url: https://t.me/s/baipiaov2
 
-- type: tgchannel
-  options:
-    channel: ssrList
-    num: 200
+# - type: tgchannel
+#   options:
+#     channel: ssrList
+#     num: 200
 
-- type: webfuzzsub
-  options:
-    url: https://t.me/s/ssrList
+# - type: webfuzzsub
+#   options:
+#     url: https://t.me/s/ssrList
 
 - type: tgchannel
   options:
@@ -179,3 +179,12 @@
 - type: webfuzzsub
   options:
     url: https://t.me/s/jingpingziyuanfenxiang
+    
+- type: tgchannel
+  options:
+    channel: FreeResources101
+    num: 200
+
+- type: webfuzzsub
+  options:
+    url: https://t.me/s/FreeResources101
