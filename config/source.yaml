@@ -40,6 +40,14 @@
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt
+    
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/vmess/vs.txt
+
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/ss/ss.txt
 
 # =============================网页抓取(模糊)=============================
 - type: webfuzz
@@ -70,6 +78,11 @@
 # # - type: webfuzzsub
 # #   options:
 # #     url: https://t.me/s/ssrv2jiedian
+
+# # =============================Clash格式订阅链接=============================
+- type: clash
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/clash/clashs.yaml
 
 # =============================tg频道抓取(同时包含订阅和节点)=============================
 - type: tgchannel
