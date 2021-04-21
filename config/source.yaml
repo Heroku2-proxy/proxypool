@@ -48,6 +48,10 @@
 - type: subscribe
   options:
     url: https://gitea.com/proxypools/sub/raw/branch/main/ss/ss.txt
+   
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/ssr/ssr.txt
 
 # =============================网页抓取(模糊)=============================
 - type: webfuzz
