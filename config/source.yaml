@@ -81,33 +81,6 @@
   options:
     url: https://t.me/s/baipiaov2
 
-# - type: tgchannel
-#   options:
-#     channel: ssrList
-#     num: 200
-
-# - type: webfuzzsub
-#   options:
-#     url: https://t.me/s/ssrList
-
-- type: tgchannel
-  options:
-    channel: V2List
-    num: 200
-
-- type: webfuzzsub
-  options:
-    url: https://t.me/s/V2List
-
-- type: tgchannel
-  options:
-    channel: ShadowsocksRssr
-    num: 200
-
-- type: webfuzzsub
-  options:
-    url: https://t.me/s/ShadowsocksRssr
-
 - type: tgchannel
   options:
     channel: freeshadowsock
