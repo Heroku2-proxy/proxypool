@@ -8,13 +8,13 @@
   options:
     url: https://fanqiangdang.com/forum-36-1.html
 
-# - type: web-fanqiangdang
-#   options:
-#     url: https://fanqiangdang.com/forum-2-1.html
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-2-1.html
 
-# - type: web-fanqiangdang
-#   options:
-#     url: https://fanqiangdang.com/forum-50-1.html
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-50-1.html
 
 # =============================订阅链接抓取=============================
 - type: subscribe
@@ -161,10 +161,10 @@
   options:
     url: https://t.me/s/FreeResources101
 
-- type: tgchannel
-  options:
-    channel: Starlink101
-    num: 200
+# - type: tgchannel
+#   options:
+#     channel: Starlink101
+#     num: 200
 
 # - type: webfuzzsub
 #   options:
