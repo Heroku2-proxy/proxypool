@@ -161,10 +161,10 @@
   options:
     url: https://t.me/s/FreeResources101
 
-# - type: tgchannel
-#   options:
-#     channel: Starlink101
-#     num: 200
+- type: tgchannel
+  options:
+    channel: Starlink101
+    num: 200
 
 # - type: webfuzzsub
 #   options:
